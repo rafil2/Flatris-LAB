@@ -6,8 +6,7 @@
 trigger:
 - master
 
-pool:
-  vmImage: SelfHosted
+pool: Default
 
 steps:
 - task: NodeTool@0
